@@ -22,5 +22,6 @@ module TheJollyAdvisor
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    config.rubycas.cas_base_url = 'https://login.case.edu/cas/'
   end
 end

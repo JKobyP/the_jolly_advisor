@@ -37,6 +37,10 @@ gem 'momentjs-rails'
 gem 'fullcalendar-rails'
 
 gem 'rubycas-client', github: 'rubycas/rubycas-client'
+gem 'rubycas-client-rails'
+
+# Use OmniAuth for Oauth2.0 integration with Google
+gem 'omniauth-google-oauth2', '~> 0.2.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
